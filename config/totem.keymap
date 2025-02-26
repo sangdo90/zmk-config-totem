@@ -42,17 +42,17 @@
 
         toggle3 {
             bindings = <&tog 3>;
-            key-positions = <11 12 29 10 33>;
+            key-positions = <10 33 27>;
         };
 
         toggle4 {
             bindings = <&tog 4>;
-            key-positions = <11 13 16 10 33>;
+            key-positions = <10 33 28>;
         };
 
         toggle5 {
             bindings = <&tog 5>;
-            key-positions = <10 11 14 33>;
+            key-positions = <10 33 29>;
         };
     };
 
