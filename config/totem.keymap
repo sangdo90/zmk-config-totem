@@ -63,11 +63,6 @@
             bindings = <&kp UNDERSCORE>;
             key-positions = <26 27>;
         };
-
-        shfit {
-            bindings = <&kp RIGHT_SHIFT>;
-            key-positions = <18 31>;
-        };
     };
 
     macros {
@@ -111,7 +106,7 @@
             bindings = <
          &kp Q               &kp W       &kp E         &kp R        &kp T            &kp Y    &kp U              &kp I        &kp O       &kp P
          &mt LEFT_COMMAND A  &mt LALT S  &mt LCTRL D   &mt LSHFT F  &kp G            &kp H    &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RALT L  &mt RIGHT_COMMAND SEMICOLON
-&kp TAB  &kp Z               &kp X       &kp C         &kp V        &kp B            &kp N    &kp M              &kp COMMA    &kp DOT     &kp FSLH                     &mt RIGHT_SHIFT SQT
+&kp TAB  &kp Z               &kp X       &kp C         &kp V        &kp B            &kp N    &kp M              &kp COMMA    &kp DOT     &kp FSLH                     &kp RIGHT_SHIFT
                                          &kp LEFT_GUI  &mo 1        &kp BACKSPACE    &kp RET  &kp SPACE          &mo 2
             >;
         };
