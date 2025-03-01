@@ -151,7 +151,7 @@
             bindings = <
             &kp EXCL   &kp AT  &kp HASH  &kp DLLR      &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp SQT  &kp DOUBLE_QUOTES
             &kt LCTRL  &trans  &trans    &kp HOME      &kp END        &kp MINUS  &kp EQUAL  &kp GRAVE  &trans   &kp SQT
-&kp ESCAPE  &kt LSHFT  &trans  &trans    &kp LS(HOME)  &kp LS(END)    &kp UNDER  &kp PLUS   &kp TILDE  &trans   &kp BACKSLASH      &tog 5
+&kp ESCAPE  &kt LSHFT  &trans  &trans    &kp LS(HOME)  &kp LS(END)    &kp UNDER  &kp PLUS   &kp TILDE  &trans   &kp BACKSLASH      &to 5
                                &trans    &mo 5         &trans         &trans     &trans     &trans
             >;
         };
@@ -214,7 +214,7 @@
             bindings = <
        &none  &none  &none     &none     &none             &none            &kp C_PREVIOUS  &mmv MOVE_UP    &kp C_NEXT       &msc SCRL_UP
        &none  &none  &mkp MB1  &mkp MB2  &msc SCRL_LEFT    &msc SCRL_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN
-&none  &none  &none  &none     &mkp MB3  &none             &none            &mkp MB1        &mkp MB2        &none            &none           &tog 0
+&none  &none  &none  &none     &mkp MB3  &none             &none            &mkp MB1        &mkp MB2        &none            &none           &to 0
                      &none     &none     &none             &none            &none           &none
             >;
 
