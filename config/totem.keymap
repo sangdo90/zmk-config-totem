@@ -18,7 +18,6 @@
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1400
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20
-
 #define BASE 0
 #define NAV  1
 #define SYM  2
@@ -34,10 +33,7 @@
 };
 
 / {
-
-    kscan0: kscan_0 {
-        wakeup-source;
-    };
+    kscan0: kscan_0 { wakeup-source; };
 
     combos {
         compatible = "zmk,combos";
@@ -133,10 +129,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp CAPS          &kp PAGE_DOWN  &kp UP    &kp PAGE_UP  &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8        &kp KP_N9  &kp KP_PLUS
-            &kp LEFT_CONTROL  &kp LEFT       &kp DOWN  &kp RIGHT    &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5        &kp KP_N6  &kp KP_MINUS
-&kp ESCAPE  &kp LEFT_SHIFT    &kp HOME       &none     &kp END      &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2        &kp KP_N3  &kp KP_MULTIPLY  &kp KP_EQUAL
-                                             &trans    &trans       &trans      &mo 3     &trans     &kp KP_NUMBER_0
+            &kp CAPS          &kp PAGE_DOWN  &kp UP    &kp PAGE_UP  &kp LBRC    &kp RBRC  &kp N7        &kp N8        &kp NUMBER_9  &kp KP_PLUS
+            &kp LEFT_CONTROL  &kp LEFT       &kp DOWN  &kp RIGHT    &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_MINUS
+&kp ESCAPE  &kp LEFT_SHIFT    &kp HOME       &none     &kp END      &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp KP_EQUAL
+                                             &trans    &trans       &trans      &mo 3     &trans        &kp N0
             >;
         };
 
