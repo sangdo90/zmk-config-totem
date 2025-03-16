@@ -43,11 +43,6 @@
             key-positions = <10 33 27>;
         };
 
-        toggle4 {
-            bindings = <&tog 4>;
-            key-positions = <10 33 28>;
-        };
-
         toggle5 {
             bindings = <&tog 0>;
             key-positions = <1 2 3>;
@@ -61,6 +56,16 @@
         understore {
             bindings = <&kp UNDERSCORE>;
             key-positions = <26 27>;
+        };
+
+        single_quote {
+            bindings = <&kp SQT>;
+            key-positions = <7 8>;
+        };
+
+        double_quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <8 9>;
         };
     };
 
