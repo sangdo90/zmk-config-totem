@@ -67,6 +67,24 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <8 9>;
         };
+
+        gui_select_all {
+            bindings = <&kp LC(A)>;
+            key-positions = <19 10>; // RIGHT_COMMAND(;) + A
+            timeout-ms = <60>;
+        };
+
+        gui_copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <19 23>; // RIGHT_COMMAND(;) + C
+            timeout-ms = <60>;
+        };
+
+        gui_paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <19 24>; // RIGHT_COMMAND(;) + V
+            timeout-ms = <60>;
+        };
     };
 
     macros {
